@@ -1,0 +1,152 @@
+@charset "EUC-KR";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+hr.style9 {
+	border-top: 1px dashed #bbb;
+	border-bottom: 1px dashed #fff;
+}
+.page_container {
+	max-width:840px;
+	min-width:600px;
+	width:100%;
+	position : relative;
+	margin : auto;
+}
+.header {
+	padding:30px 10px 10px 10px;
+	color:#ccc;
+	min-width:800px;
+}
+.bestSeller {
+	width:100%;	height:510px;
+}
+.bestseller_slider {
+	position:relative;
+	max-width:800px;
+	min-width:580px;
+	width:100%;
+	height:300px;
+	padding:20px;
+}
+#menu > ul {overflow:hidden; height: 40px; min-width:700px; max-width:840px;}
+#menu > ul > li {float:left; list-style: none;}
+#menu {
+	max-width:800px;
+	min-width:700px;
+	color:#888;
+}
+.rect{	
+	text-align:center;
+	min-width:115px;
+	cursor: pointer;
+	padding: 10px 60px;
+	background-color: #fff;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+.rect:hover{
+	background-color: #ccc;
+	color: white;
+}
+.active, .dot:hover {	background-color: #4bc118; }
+#slide {
+	max-width: 800px;
+	min-width: 700px;
+	height: 300px;
+	background: #f9f9f9;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #eee;
+	position:relative;
+}
+.Slides {
+	display: none;
+	width: 770px;
+	margin: 0 auto;
+	position:relative;
+	padding: 0px 80px;
+}
+
+.book {
+	float: left;
+	padding: 50px 33px;
+	position: relative;
+}
+.book>div>h3 {
+	padding-top: 10px ;
+	color: #777777;
+	margin:8px 0px;
+}
+.book>div>p {
+	font-size: 10pt;
+	color: #777777;
+	margin:5px 0px;
+}
+.book>div { text-align: center; }
+.book>div>img { width:90px; }
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	bottom: 45%;
+	width: auto;
+	margin-top: -22px;
+	color: #d9d9d9;
+	font-weight: bold;
+	font-size: 30px;
+	padding: 15px;
+}
+.next {	right: 30px; }
+.prev { left: 30px;  }
+
+.div_padding_1 { height:30px; }
+.div_padding_2 { height:25px; }
+.today_recomm { height:600px;}
+.today_bookandreview {
+	max-width:800px;
+	min-width:800px;
+	width:100%;
+	height:400px;
+	padding:20px;
+}
+.today_recommend {
+	}
+.today_recommend>table {
+	position:relative;
+	float:left;
+	padding : 10px;
+	width:380px;
+	margin:10px;
+	border:1px solid LightGray;
+    border-radius:3px;
+	box-shadow : 0 4px 8px 0 rgba( 0, 0, 0, 0.2), 0 6px 20px 0 rgba( 0, 0, 0, 0.19);
+}
+.today_recommend_more {
+	color:pink;
+	text-align:right;
+	padding:20px;
+}
+
+.dot {
+	cursor: pointer;
+	height: 12px;
+	width: 12px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+#dotstyle {
+	position: absolute;
+	bottom: 20px;
+	width: auto;
+	right: 47%;
+}
+.reviewmore {
+	text-align:right; 
+	padding:15px 5px 5px 5px;
+	font-size:12px;
+	color:skyblue;
+}

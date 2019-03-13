@@ -1,0 +1,179 @@
+@charset "EUC-KR";
+
+html, body {
+	font-family:"배달의민족 주아";
+	margin-top:0;
+	padding:0;
+	height:100%;
+}
+
+header{
+	font-family:"배달의민족 주아";
+	position:relative;
+	width:100%;
+	height:120px;
+    color: grey;
+    background-color:#fff;
+    clear: left;
+    text-align: center;
+    padding-top:30px;
+    padding-bottom:34px;
+}
+
+header div.Books_img {
+	float:left;
+    width: 20%;
+    height:100%;
+    margin: 0;
+}
+
+header div.search {
+	float:right;
+    width: 80%;
+    margin: 0;
+    line-height:100px;
+    text-align:left;
+    valign:bottom;
+}
+
+header div.search li {
+	list-style-type: none;
+	float:left;
+	margin-top:40px;
+}
+
+header div.search form{
+
+	float:left;
+	margin-left:75px;
+	margin-top:75px;
+}
+
+header div.search input.input{
+	width:300px;
+	height:25px;
+	border:2px solid lightgrey;
+}
+
+header div.search input.search{
+	position:relative;
+	padding:5px 15px; 
+    border:0 none;
+    cursor:pointer;
+	margin-left:15px;
+	background:url(/SEProject/img/search.png);
+    display: block;
+    height: 32px;
+    width: 32px;
+    float: right;
+}
+
+header div.search li{
+	margin-left:30px;
+}
+
+nav.menu {
+	font-family:"배달의민족 주아";
+	position:relative;
+    width: 100%;
+    height:50px;
+    margin: 0;
+    color:rgb(26,26,26);
+    background-color:#EAEAEA;
+    border-radius:10px;
+}
+
+nav.menu div {
+	float:left;
+    width: 600px;
+    line-height:50px;
+    margin: 0;
+    border-right:1px solid LightGray;
+}
+
+nav.menu div li{
+	list-style-type: none;
+	padding-left:30px;
+	text-align:left;
+}
+
+nav.menu ul.left{
+	width:500px;
+    list-style-type: none;
+    padding-left:20px;
+    height:100%;
+    margin:0;
+	float:left;
+	text-align:left;
+}
+
+nav.menu ul.right{
+	right:10px;
+	width:250px;
+    list-style-type: none;
+    padding:0;
+    height:100%;
+    margin:0;
+	float:right;
+	text-align:right;
+}
+
+nav.menu ul li {
+    display:inline;
+    margin-right:10px;
+    margin-left:10px;
+}
+   
+nav.menu ul a {
+	line-height:50px;
+    text-decoration: none;
+    color:rgb(26,26,26);
+}
+
+nav.menu ul a:hover {
+	text-decoration:underline;
+}
+
+div.content {
+	height:auto;
+}
+div.category {
+	font-family:"배달의민족 주아";
+    float: left;
+    width: 230px;
+    height:auto;
+    margin: 0;
+    border-right:1px solid LightGray;
+    border-bottom:1px solid LightGray;
+    display:inline;
+    color:rgb(26,26,26);
+}
+
+div.category ul {
+    list-style-type: none;
+    padding:0;
+    line-height:30px;
+}
+
+div.category li{
+	padding-left:30px;
+	text-align:left;
+}
+div.category li.grey:hover {
+	background-color: rgb(231,231,231);
+	cursor:pointer;
+}
+
+div.main {
+	max-width:1005px;
+	position:absolute;
+	height:auto;
+	float:right;
+	margin-left:230px;
+}
+
+div.panel {
+	margin-left:10px;
+	display:none;
+}
+

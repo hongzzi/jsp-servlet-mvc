@@ -1,0 +1,45 @@
+@charset "EUC-KR";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+
+.booklistcontainer {
+	position : absolute;
+	width:890px;
+	margin:25px;
+}
+.booklist {
+	width:870px;
+	height:1200px;
+	padding: 10px;
+}
+
+.infoprint {
+	
+	height:150px;
+	padding:5px;
+}
+div>table {
+    width: 100%;
+  }
+div>table>th, td {
+    padding: 5px;
+    padding-left:10px;
+  }
+  
+.spanstyle { padding-right:10px; color:#999; font-size:13px;}
+.spanstyle2 { color : #0080c0; font-weight:bold;}
+hr.style1 { border: 2px solid #8c8b8b; width:950px;}
+
+.ahrck {
+	padding:10px;
+	 font-size:26px;
+	color:#a5d280; 
+	 font-weight:bold;
+}
+.fspan { color:#8b8b8b; }
+.bookcontents {
+	padding:20px;
+	margin:10px;
+}
+.bookinfocontainer { margin:10px;}
+.infobookname { padding: 30px 20px; color:#aaa; font-size:32px;}
